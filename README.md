@@ -1,9 +1,6 @@
-tiene instalado laravel liveware
-Auth login y registro
-
-
-1-composer update
-2-correr migraciones 
-3-ejecutar npm install y luego npm run dev
-4-luego solo ejecutar "npm run dev" para correr el laravel mix y crear los css, sass, js que estan en resources y los cree y guarde en public 
-5-trabajar los css y js en resource y agregarlos a el webpackmix.js
+-Crear base de datos fullonkitchen
+-Correr composer.phar  update (este composer.phar 2.0, se encuentra en el proyecto)
+-correr migraciones 
+-correr php artisan migrate:fresh --seed
+-usuario: jacqueline@gmail.com
+-pass:12345678
