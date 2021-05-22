@@ -24,11 +24,11 @@ class TestController extends Controller
 
         $products = $this->marketService->getProducts();
         $categories = $this->marketService->getCategories();
-        $aftership_list = $this->afterShipService->getListAfterShip();
+        #$aftership_list = $this->afterShipService->getListAfterShip();
         
-        dd ($products,  $aftership_list, $categories);
+        #dd ($products,  $aftership_list, $categories);
        
-        
+        dd ($products, $categories);
 
        
         return view('admin.test', compact ('products','categories', 'aftership_list' ));
